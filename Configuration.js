@@ -14,7 +14,7 @@ function getConfiguration(config)
 
 function getEndpoints(deviceAddress, endpoints)
 {
-  var lts = endpoints.addEndpoint("1", "Litros", endpointType.genericSensor);
+  var lts = endpoints.addEndpoint("l1t70s", "Litros", endpointType.genericSensor);
       lts.variableTypeId=1195;
 }
 
